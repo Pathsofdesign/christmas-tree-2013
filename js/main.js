@@ -30,7 +30,7 @@ function onDrawingLoaded(d) {
 	
 	function changeColor(index) {	
 		tree.select('circle:nth-child('+ index +')').animate({ fill: randomColor()}, 1000, null, function() {
-			setTimeout(function() { changeColor(index) }, 2000);
+			setTimeout(function() { changeColor(index) }, 3000);
 		});
 	}
 	
